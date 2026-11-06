@@ -1,0 +1,13 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.DS_Store
+*.xcworkspace
+*.xcodeproj
+Build/Mac/FileOpenOrder/
+Build/Mac/*.PackageVersionCounter
+# The plugin (layer B: from the developer portal after sign-in) is never committed; the folder and its note are.
+Plugins/*
+!Plugins/README.md
+Content/LatentVoice/
