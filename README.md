@@ -18,8 +18,9 @@ This repository has the sample only. The plugin comes from the developer portal:
 2. Open `FireUnreal.uproject`. When it asks to rebuild the missing modules, choose **Yes**. The first build takes about a minute. The sample opens and plays without the plugin; the guide on the screen says what is missing.
 3. Sign in to the developer portal, download the Unreal plugin, and create an AccessKey for **サンプルプロジェクト(焚き火)**. The sample's words belong to that project.
 4. Close the Editor. Unpack the plugin so that `Plugins/LatentVoice/LatentVoice.uplugin` exists in this folder, then open `FireUnreal.uproject` again and choose **Yes** to rebuild.
-5. Open **Tools > Latent Voice > Sync published WordSet**, paste the key and press **Set up (engine + WordSet)**. The files go to `Content/LatentVoice/` and stay out of version control.
-6. Press **Play**, allow the microphone, and say ファイア, then ストップ. On Windows, allow microphone access in Settings, under Privacy & security. The first start needs the network for the license check.
+5. Open **Tools > Latent Voice > SDK のセットアップ**, paste the key and press **セットアップ**. The files go to `Content/LatentVoice/` and stay out of version control.
+6. Open **Tools > Latent Voice > Words（単語とレベル）**. In **プロジェクト共通**, choose **Auto（推奨）** for the microphone input. Under **レベルごとの設定**, select **FireMap**, assign the synced WordSet if prompted, and save the level. Word switches and sensitivity apply to this level; microphone input applies to the whole project.
+7. Press **Play**, allow the microphone, and say ファイア, then ストップ. On Windows, allow microphone access in Settings, under Privacy & security. The first start needs the network for the license check.
 
 To package a game of your own, see the plugin's `Install.md`.
 
@@ -68,8 +69,9 @@ Unreal Engine is a trademark of Epic Games, Inc. This sample is not made or endo
 2. `FireUnreal.uproject` を開きます。足りないモジュールを再ビルドするか聞かれたら、**Yes** を選びます。初回のビルドには 1 分ほどかかります。プラグインがなくても開いて動き、画面の案内に足りないものが表示されます。
 3. 開発者ポータルにログインし、Unreal 用プラグインをダウンロードして、**サンプルプロジェクト(焚き火)** の AccessKey を作ります。サンプルの単語はこのプロジェクトのものです。
 4. Editor を閉じます。プラグインを展開してこのフォルダーに `Plugins/LatentVoice/LatentVoice.uplugin` ができるように置き、もう一度 `FireUnreal.uproject` を開いて、**Yes** で再ビルドします。
-5. **Tools > Latent Voice > Sync published WordSet** を開き、キーを貼り付けて **Set up (engine + WordSet)** を押します。ファイルは `Content/LatentVoice/` に入り、バージョン管理には含まれません。
-6. **Play** を押し、マイクを許可して、ファイア、ストップ と話します。Windows では、設定の「プライバシーとセキュリティ」でマイクを許可します。初回は、ライセンスの確認にネットワークが必要です。
+5. **Tools > Latent Voice > SDK のセットアップ** を開き、キーを貼り付けて **セットアップ** を押します。ファイルは `Content/LatentVoice/` に入り、バージョン管理には含まれません。
+6. **Tools > Latent Voice > Words（単語とレベル）** を開きます。「プロジェクト共通」の入力方式を **Auto（推奨）** にし、「レベルごとの設定」で **FireMap** を選びます。割り当てを求められたら同期済みの WordSet を割り当て、レベルを保存します。単語のオン／オフと感度はこのレベルだけ、入力方式はプロジェクト全体に適用されます。
+7. **Play** を押し、マイクを許可して、ファイア、ストップ と話します。Windows では、設定の「プライバシーとセキュリティ」でマイクを許可します。初回は、ライセンスの確認にネットワークが必要です。
 
 自分のゲームをパッケージ化するときは、プラグインの `Install.md` を見てください。
 
