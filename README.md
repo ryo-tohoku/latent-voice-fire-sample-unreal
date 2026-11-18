@@ -16,7 +16,7 @@ This repository has the sample only. The plugin comes from the developer portal:
 
 1. Clone this repository.
 2. Open `FireUnreal.uproject`. When it asks to rebuild the missing modules, choose **Yes**. The first build takes about a minute. The sample opens and plays without the plugin; the guide on the screen says what is missing.
-3. Sign in to the developer portal, download the Unreal plugin, and create an AccessKey for **サンプルプロジェクト(焚き火)**. The sample's words belong to that project. Unreal must be enabled for it in the portal.
+3. Sign in to the developer portal, download the Unreal plugin, and create an AccessKey for **サンプルプロジェクト(焚き火)**. The sample's words belong to that project.
 4. Close the Editor. Unpack the plugin so that `Plugins/LatentVoice/LatentVoice.uplugin` exists in this folder, then open `FireUnreal.uproject` again and choose **Yes** to rebuild.
 5. Open **Tools > Latent Voice > Sync published WordSet**, paste the key and press **Set up (engine + WordSet)**. The files go to `Content/LatentVoice/` and stay out of version control.
 6. Press **Play**, allow the microphone, and say ファイア, then ストップ. On Windows, allow microphone access in Settings, under Privacy & security. The first start needs the network for the license check.
@@ -66,7 +66,7 @@ Unreal Engine is a trademark of Epic Games, Inc. This sample is not made or endo
 
 1. このリポジトリをクローンします。
 2. `FireUnreal.uproject` を開きます。足りないモジュールを再ビルドするか聞かれたら、**Yes** を選びます。初回のビルドには 1 分ほどかかります。プラグインがなくても開いて動き、画面の案内に足りないものが表示されます。
-3. 開発者ポータルにログインし、Unreal 用プラグインをダウンロードして、**サンプルプロジェクト(焚き火)** の AccessKey を作ります。サンプルの単語はこのプロジェクトのものです。ポータルでこのプロジェクトの Unreal が有効になっている必要があります。
+3. 開発者ポータルにログインし、Unreal 用プラグインをダウンロードして、**サンプルプロジェクト(焚き火)** の AccessKey を作ります。サンプルの単語はこのプロジェクトのものです。
 4. Editor を閉じます。プラグインを展開してこのフォルダーに `Plugins/LatentVoice/LatentVoice.uplugin` ができるように置き、もう一度 `FireUnreal.uproject` を開いて、**Yes** で再ビルドします。
 5. **Tools > Latent Voice > Sync published WordSet** を開き、キーを貼り付けて **Set up (engine + WordSet)** を押します。ファイルは `Content/LatentVoice/` に入り、バージョン管理には含まれません。
 6. **Play** を押し、マイクを許可して、ファイア、ストップ と話します。Windows では、設定の「プライバシーとセキュリティ」でマイクを許可します。初回は、ライセンスの確認にネットワークが必要です。
